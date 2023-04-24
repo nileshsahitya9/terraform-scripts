@@ -1,25 +1,25 @@
-### AWS infra creation through terraform
+# AWS infra creation through terraform
 
 
 
-# Move to script directory
+### Move to script directory
 cd scripts
 
-# Initialize a terraform
+### Initialize a terraform
 terraform init
 
 
-# Validate a script 
+### Validate a script 
 terraform validate
 
-# Format a script
+### Format a script
 terraform fmt
 
-# To see what changes are going to applied on resources
+### To see what changes are going to applied on resources
 terraform plan
 
-# For applying the changes
+### For applying the changes
 terraform apply
 
-# To destroy the changes
+### To destroy the changes
 terraform destroy
